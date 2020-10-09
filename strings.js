@@ -18,7 +18,7 @@ console.log("    "[2])  // " "
 const words = ["Hola", "Mundo"]
 console.log(words.join("----"))*/
 
-/*function generatePassword(str) {
+function generatePassword(str) {
   return str.toLowerCase()
            .replace(/ /g, "")
            .replace(/a/g, "4")
@@ -28,7 +28,7 @@ console.log(words.join("----"))*/
 
 console.log(generatePassword("hola")); // "h0l4"
 console.log(generatePassword("esta es una prueba")); // "3st43sun4pru3b4"
-console.log(generatePassword("")); // ""*/
+console.log(generatePassword("")); // ""
 
 
 function capitalize(str) {
